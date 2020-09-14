@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NetworkMoudle'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '网络组件'
 
 # This description is used to generate tags and improve search results.
@@ -28,15 +28,14 @@ TODO: 网络组件 RxSwitf MVVM
   s.source           = { :git => 'https://github.com/Wwxd-Sun/NetworkMoudle.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'NetworkMoudle/Classes/**/*.{swift}'
   s.frameworks = 'UIKit'
   s.dependency 'ModelProtocol', '~> 0.0.1'
-  s.dependency 'RxSwift', '~> 4.1.2'  #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
-  s.dependency 'RxCocoa', '~> 4.1.2'
-  s.dependency 'Alamofire', '~> 4.7.0'
-  s.dependency 'Result', '~> 3.2.4'
+  s.dependency 'RxSwift', '~> 5.1.1'  #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
+  s.dependency 'RxCocoa', '~> 5.1.1'
+  s.dependency 'Alamofire', '~> 4.9.1'
   # s.resource_bundles = {
   #   'NetworkMoudle' => ['NetworkMoudle/Assets/*.png']
   # }

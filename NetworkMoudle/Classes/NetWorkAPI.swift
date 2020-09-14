@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 import RxSwift
-import enum Result.Result
+//import Result
 import ModelProtocol
 import SwiftyJSON
 
