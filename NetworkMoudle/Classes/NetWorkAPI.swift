@@ -9,7 +9,6 @@
 import UIKit
 import Alamofire
 import RxSwift
-//import Result
 import ModelProtocol
 import SwiftyJSON
 
