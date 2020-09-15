@@ -1,24 +1,12 @@
 PODS:
   - Alamofire (4.9.1)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - ModelProtocol (0.0.1):
     - SwiftyJSON (~> 4.0.0)
-  - NetworkMoudle (0.0.2):
+  - NetworkMoudle (0.0.3):
     - Alamofire (~> 4.9.1)
     - ModelProtocol (~> 0.0.1)
     - RxCocoa (~> 5.1.1)
     - RxSwift (~> 5.1.1)
-  - Nimble (7.3.4)
-  - Nimble-Snapshots (6.3.0):
-    - Nimble-Snapshots/Core (= 6.3.0)
-  - Nimble-Snapshots/Core (6.3.0):
-    - FBSnapshotTestCase (~> 2.0)
-    - Nimble (~> 7.0)
-  - Quick (1.2.0)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -28,20 +16,12 @@ PODS:
   - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - NetworkMoudle (from `../`)
-  - Nimble (~> 7.0)
-  - Nimble-Snapshots (~> 6.3.0)
-  - Quick (~> 1.2.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - FBSnapshotTestCase
     - ModelProtocol
-    - Nimble
-    - Nimble-Snapshots
-    - Quick
     - RxCocoa
     - RxRelay
     - RxSwift
@@ -53,17 +33,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   ModelProtocol: d837eacfe2d501da88c75800df98d60f5367f0ac
-  NetworkMoudle: cdad191bb1bd8f4069e38aa41f70e715ac28cb80
-  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
-  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  NetworkMoudle: 1397a6c51e667a8499523c6b220fdf76196961df
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 74726fc4fe4f3c35f29e9839a2403204b4f0f007
+PODFILE CHECKSUM: 191fb9fc2da367297b447e6058da3a735412b269
 
 COCOAPODS: 1.9.3
