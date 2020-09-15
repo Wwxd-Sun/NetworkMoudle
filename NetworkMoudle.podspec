@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NetworkMoudle'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = '网络组件'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: 网络组件 RxSwitf MVVM
   s.swift_versions = '5.0'
   s.source_files = 'NetworkMoudle/Classes/**/*.{swift}'
   s.frameworks = 'UIKit'
-  s.dependency 'ModelProtocol', '~> 0.0.1'
+  s.dependency 'ModelProtocol', '~> 0.1.0'
   s.dependency 'RxSwift', '~> 5.1.1'  #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
   s.dependency 'RxCocoa', '~> 5.1.1'
   s.dependency 'Alamofire', '~> 4.9.1'
