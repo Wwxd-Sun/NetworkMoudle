@@ -89,7 +89,7 @@ public class NetWorkAPI {
      在这块 发起网络请求并且 将返回的数据转换成事件流传下去
      - returns: 返回String类型结果的数据流Result<String,MikerError>
      */
-    public func request(_ target:TargetType,didResponseBlock:@escaping ((_ responsedata : Result<String,MikerError>) -> Void)) -> Void{
+    public func request(_ target:TargetType,didResponseBlock:@escaping ((_ responsedata : Result<String>) -> Void)) -> Void{
         var  baseurl:String = ""
         if target.path.hasPrefix("http") {
             baseurl = target.path
@@ -111,7 +111,7 @@ public class NetWorkAPI {
                     print(repos)
                 }
                 ///调用回调
-                didResponseBlock(Result(repos))
+                didResponseBlock(.success(repos))
             case.failure(let error):
                 print(String(describing: error))
                 if NetWorkCore.isDebug == true {
@@ -123,7 +123,7 @@ public class NetWorkAPI {
                     }
                 }
                 ///调用回调
-                didResponseBlock(Result.failure(MikerError(error: error as NSError)))
+                didResponseBlock(.failure(MikerError(error: error as NSError)))
             }
         }
     }
@@ -131,7 +131,7 @@ public class NetWorkAPI {
      在这块 发起网络请求并且 将返回的数据转换成事件流传下去
      - returns: 返回String类型结果的数据流
      */
-    public func requestSwiftyJSONReg(_ target:TargetType,didResponseBlock:@escaping ((_ responsedata : Result<JSON,MikerError>) -> Void)) -> Void{
+    public func requestSwiftyJSONReg(_ target:TargetType,didResponseBlock:@escaping ((_ responsedata : Result<JSON>) -> Void)) -> Void{
         self.request(target){ result in
             switch result{
             case .success(let data):
@@ -143,7 +143,7 @@ public class NetWorkAPI {
                         }
                         if regObj.status == NetWorkCore.successCode{
                             ///调用回调
-                            didResponseBlock(Result(regObj.data))
+                            didResponseBlock(.success(regObj.data))
                         }else{
                             didResponseBlock(Result.failure(MikerError("serverrrorcode",code:regObj.status,message:regObj.message)))
                         }
