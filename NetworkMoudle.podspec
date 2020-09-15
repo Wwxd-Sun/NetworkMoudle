@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NetworkMoudle'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '网络组件'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: 网络组件 RxSwitf MVVM
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
+  s.swift_versions = '5.0'
   s.source_files = 'NetworkMoudle/Classes/**/*.{swift}'
   s.frameworks = 'UIKit'
   s.dependency 'ModelProtocol', '~> 0.0.1'
