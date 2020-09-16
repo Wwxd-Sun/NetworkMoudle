@@ -4,7 +4,7 @@ PODS:
     - Alamofire (~> 4.9.1)
     - RxCocoa (~> 5.1.1)
     - RxSwift (~> 5.1.1)
-    - SwiftyJSON (~> 4.0.0)
+    - SwiftyJSON (~> 4.0)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -30,7 +30,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  NetworkMoudle: e46fa273acd0887942e93a014f66bf6ada1f12ea
+  NetworkMoudle: 360a103b28585574d691d9d2766dab1809fd7468
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
