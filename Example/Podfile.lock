@@ -1,17 +1,17 @@
 PODS:
   - Alamofire (4.9.1)
-  - NetworkMoudle (0.0.7):
+  - NetworkMoudle (0.0.9):
     - Alamofire (~> 4.9.1)
     - RxCocoa (~> 5.1.1)
     - RxSwift (~> 5.1.1)
-    - SwiftyJSON (~> 4.0)
+    - SwiftyJSON (~> 5.0.0)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
-  - SwiftyJSON (4.0.0)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - NetworkMoudle (from `../`)
@@ -30,11 +30,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  NetworkMoudle: 360a103b28585574d691d9d2766dab1809fd7468
+  NetworkMoudle: 8c1106934bf7142623fe93373a56e25e03b060e3
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
-  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
 PODFILE CHECKSUM: 191fb9fc2da367297b447e6058da3a735412b269
 
