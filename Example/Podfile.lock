@@ -1,10 +1,10 @@
 PODS:
   - Alamofire (4.9.1)
-  - ModelProtocol (0.1.0):
-    - SwiftyJSON (~> 4.2.0)
-  - NetworkMoudle (0.0.5):
+  - ModelProtocol (0.0.1):
+    - SwiftyJSON (~> 4.0.0)
+  - NetworkMoudle (0.0.6):
     - Alamofire (~> 4.9.1)
-    - ModelProtocol (~> 0.1.0)
+    - ModelProtocol (~> 0.0.1)
     - RxCocoa (~> 5.1.1)
     - RxSwift (~> 5.1.1)
   - RxCocoa (5.1.1):
@@ -13,7 +13,7 @@ PODS:
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
-  - SwiftyJSON (4.2.0)
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
   - NetworkMoudle (from `../`)
@@ -33,12 +33,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  ModelProtocol: e7be7d227c0ff494fcfef75a616af637f0f81f4b
-  NetworkMoudle: 28563a262aafff3f1e07a93f9e9c4a4f3a701ee7
+  ModelProtocol: d837eacfe2d501da88c75800df98d60f5367f0ac
+  NetworkMoudle: 47b95606dfb053278ce39244ff5b131f827321c0
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
-  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
 PODFILE CHECKSUM: 191fb9fc2da367297b447e6058da3a735412b269
 
