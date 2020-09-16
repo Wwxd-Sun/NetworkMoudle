@@ -9,8 +9,6 @@
 import Foundation
 import RxSwift
 import SwiftyJSON
-import ModelProtocol
-
 // MARK: - 扩展ObservableType 转换TargetType为Response
 extension ObservableType where E:TargetType {
     /**

@@ -8,7 +8,6 @@
 
 import Foundation
 import SwiftyJSON
-import ModelProtocol
 
 public class Reg: ModelProtocol {
     var status: Int!

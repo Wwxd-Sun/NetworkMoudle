@@ -9,7 +9,6 @@
 import Foundation
 import RxSwift
 import SwiftyJSON
-import ModelProtocol
 
 // MARK: - 扩展ObservableType 转换String为JSON
 public extension ObservableType where E == String {

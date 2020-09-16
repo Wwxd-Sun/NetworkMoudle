@@ -9,7 +9,6 @@
 import UIKit
 import Alamofire
 import RxSwift
-import ModelProtocol
 import SwiftyJSON
 
 public protocol TargetType {
